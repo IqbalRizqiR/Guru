@@ -19,5 +19,16 @@ public class GuruDriver {
         System.out.println("--------");
         guru.print();
         System.out.println("--------");
+        Guru buPasha = new Guru(2232, "Pasha", "Produktif", "Tetap");
+        Guru pakIlham = new Guru(3329, "Ilham", "Produktif", "Full-Time");
+        Guru pakFirdausa = new Guru(4427, "Firdausa", "Produktif", "Full-Time");
+        Guru pakThoriq = new Guru(5813, "Thoriq", "Olahraga", "Full-Time");
+        buPasha.print();
+        System.out.println("--------");
+        pakIlham.print();
+        System.out.println("--------");
+        pakFirdausa.print();
+        System.out.println("--------");
+        pakThoriq.print();
     }
 }

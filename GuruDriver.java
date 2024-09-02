@@ -13,7 +13,18 @@ public class GuruDriver {
         System.out.print("Masukkan Status : ");
         String status = input.nextLine();
         System.out.print("Masukkan NIP : ");
-        int nip = input.nextInt();
+        int nip = input.nextInt(); 
+
+
+        // Contoh nya
+        Guru coba = new Guru();
+        coba.setNama(nama);
+        coba.setMapel(mapel);
+        coba.setStatus(status);
+        coba.setNip(nip);
+        System.out.println("--------");
+        coba.print();
+        System.out.println("--------");
 
         Guru guru = new Guru(nip, nama, mapel, status);
         System.out.println("--------");
